@@ -16,7 +16,7 @@ function verificaSeOChutePossuiUmValorValido(){
     if(numero === numeroSecreto){
         document.body.innerHTML = `<h2>Você acertou!</h2>
         <h3>O numero secreto era ${numeroSecreto}</h3>
-        <button id="jogar-novemente" class="btn-jogar" >Jogar</button>
+        <button id="jogar-novamente" class="btn-jogar" >Jogar</button>
         `
     }else if(numero > numeroSecreto){
         elementoChute.innerHTML = `<div>O numero secreto é menor <i class="fa-solid fa-down-long"></i></div>`
